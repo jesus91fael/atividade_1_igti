@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/teste.css" />
+    <title>Teste 1 - Unidade 1</title>
+  </head>
+  <body>
+    <div class="corpo">
+      <div class="lineColor">
+        <div class="colunm text">(R) Vermelho:</div>
+        <div class="colunm">
+          <input type="range" id="red" min="0" max="255" />
+        </div>
+        <div class="colunm">
+          <input type="text" id="valueRed" disabled class="inativo" />
+        </div>
+      </div>
+      <div class="lineColor">
+        <div class="colunm text">(G) Verde:</div>
+        <div class="colunm">
+          <input type="range" id="green" min="0" max="255" />
+        </div>
+        <div class="colunm">
+          <input id="valueGreen" type="text" disabled class="inativo" />
+        </div>
+      </div>
+      <div class="lineColor">
+        <div class="colunm text">(B) Azul:</div>
+        <div class="colunm">
+          <input type="range" id="blue" min="0" max="255" />
+        </div>
+        <div class="colunm">
+          <input id="valueBlue" type="text" disabled class="inativo" />
+        </div>
+      </div>
+      <div class="lineColor">
+        <div class="colunm">
+          <div class="boxColor"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/teste.js"></script>
+  </body>
+</html>
